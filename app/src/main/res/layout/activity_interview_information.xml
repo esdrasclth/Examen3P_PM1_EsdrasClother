@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UploadInterviewActivity">
+    tools:context=".InterviewInformationActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,14 +19,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:srcCompat="@tools:sample/avatars" />
-
-        <Button
-            android:id="@+id/btnSelectImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_gravity="center"
-            android:text="Seleccionar Foto" />
 
         <TextView
             android:id="@+id/textView5"
@@ -91,19 +83,27 @@
             android:inputType="date"/>
 
         <Button
-            android:id="@+id/btnSelectAudio"
+            android:id="@+id/btnReproducir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Seleccionar Audio"
+            android:text="REPRODUCIR"
             android:background="@color/white"/>
 
         <Button
-            android:id="@+id/btnUpload"
+            android:id="@+id/btnModificar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="SUBIR"
+            android:layout_marginTop="10dp"
+            android:text="MODIFICAR"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ELIMINAR"
             android:background="@color/white"/>
     </LinearLayout>
 
