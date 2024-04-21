@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305698500718",
+    "project_id": "examen3p-pm1",
+    "storage_bucket": "examen3p-pm1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305698500718:android:a7b5e488b004cd5e60767f",
+        "android_client_info": {
+          "package_name": "com.example.examen3p_pm1_esdrasclother"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkaOF_GkUxDEXhUBOqIzwWLQpgraBWhyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
